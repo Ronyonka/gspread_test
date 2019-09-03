@@ -30,7 +30,7 @@ pip install -r requirements.txt
 * In the API screen click on ‘ENABLE’ to enable this API.
 * Similarly enable the “Drive API”. We require drives api for getting list of spreadsheets, deleting them etc.
 * Go to “Credentials” tab and choose “Create Credentials > Service Account Key”.
-* Next choose the service account as ‘App Engine default’ and Key type as JSON and click create.
+* Next choose a service name, in role select Project > Editor and Key type as JSON and click create.
 * You will now be prompted to download a .json file. This file contains the necessary private key for account authorization.
 * Download the .json file and rename it as `client_secret.json` and store it in the project folder. it should look like this
 ```json
